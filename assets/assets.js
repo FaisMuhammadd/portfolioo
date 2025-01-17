@@ -1,4 +1,6 @@
 import user_image from './user-image.png';
+import user from './profile.png';
+import profile1 from './profile1.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -6,16 +8,18 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
+import ts from './ts.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
+import mongodb from './react.png';
+import reactjs from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
+import nodejs from './node-js.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
+import profile from './profile.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -45,8 +49,6 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
-    figma,
     git,
     mongodb,
     right_arrow_white,
@@ -73,13 +75,19 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    profile,
+    user,
+    profile1,
+    nodejs,
+    reactjs,
+    ts
 };
 
 export const workData = [
     {
         title: 'Frontend project',
-        description: 'Web Design',
+        description: 'Web Design ',
         bgImage: '/work-1.png',
     },
     {
@@ -108,10 +116,10 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Information Technology' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.git, assets.nodejs, assets.reactjs, assets.ts
 ];
