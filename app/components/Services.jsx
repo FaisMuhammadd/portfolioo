@@ -6,13 +6,13 @@ const Services = () => {
   return (
     <div id='services' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-lg font-Ovo'>
-         what i offer
+         What i Offer
       </h4>
       <h2 className="text-center text-5xl font-Ovo">
          My Services
       </h2>
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet commodi facere voluptatibus ea. Ad nam debitis tempore nisi laboriosam!
+         I offer customized web development and web application development services, creating responsive websites and scalable applications that are functional, visually appealing, and built with the latest technologies to enhance your online presence and business efficiency.                                                 
       </p>
 
       <div className='grid grid-cols-auto gap-6 my-10'>
