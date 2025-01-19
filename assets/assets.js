@@ -86,9 +86,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Awwards',
         description: 'Web Design ',
-        bgImage: '/work-1.png',
+        bgImage: '/awwards.png',
+        link: 'https://awwards-ten.vercel.app/'
     },
     {
         title: 'Geo based app',
@@ -101,17 +102,17 @@ export const workData = [
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Frontend project',
+        description: 'Web Design ',
+        bgImage: '/work-1.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: 'https://github.com/FaisMuhammadd' },
+    { icon: assets.mobile_icon, title: 'Mobile Web', description: 'Mobile Web development involves creating website for mobile devices...', link: 'https://github.com/FaisMuhammadd' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: 'https://github.com/FaisMuhammadd' },
+    { icon: assets.graphics_icon, title: 'Web App', description: 'Web applications that are efficient, user-friendly...', link: 'https://github.com/FaisMuhammadd' },
 ]
 
 export const infoList = [
