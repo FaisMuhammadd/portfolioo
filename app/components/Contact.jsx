@@ -37,7 +37,7 @@ const Contact = () => {
          Contact Me
       </h2>
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet commodi facere voluptatibus ea. Ad nam debitis tempore nisi laboriosam!
+        Feel free to contact me through the form below for any inquiries or collaboration opportunities
       </p>
 
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
